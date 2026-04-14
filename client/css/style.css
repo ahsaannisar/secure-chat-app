@@ -1,0 +1,64 @@
+body {
+
+font-family: Arial;
+background: #0f172a;
+color: white;
+
+}
+
+.center-box {
+
+position: absolute;
+
+top: 50%;
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+
+width: 400px;
+
+}
+
+.chat-box {
+
+height: 500px;
+
+overflow-y: scroll;
+
+background: #1e293b;
+
+padding: 20px;
+
+border-radius: 10px;
+
+font-size: 20px;
+
+}
+
+.message {
+
+padding: 10px;
+
+margin: 10px;
+
+border-radius: 10px;
+
+}
+
+.sent {
+
+background: green;
+
+text-align: right;
+
+}
+
+.received {
+
+background: gray;
+
+text-align: left;
+
+}
